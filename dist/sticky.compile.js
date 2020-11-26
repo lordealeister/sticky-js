@@ -402,7 +402,7 @@ var Sticky = /*#__PURE__*/function () {
         top: '',
         left: ''
       });
-      var width = Math.max(element.offsetWidth, element.clientWidth, element.scrollWidth);
+      var width = element.clientWidth;
       var height = Math.max(element.offsetHeight, element.clientHeight, element.scrollHeight);
       var top = 0;
       var left = 0;
